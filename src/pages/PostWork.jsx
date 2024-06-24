@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import toast, { LoaderIcon } from "react-hot-toast";
-import { backend_url } from "../../../admin/src/components/Navbar";
+import { backend_url } from "../context/ShopContext";
 
 const PostWork = () => {
   const [isLoading, setIsLoading] = useState(false);

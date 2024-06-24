@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 import grayStructureImg from "../assets/gray.jpg";
 import { useEffect, useState } from "react";
 import Item from "../components/Item";
-import { backend_url } from "../../../admin/src/components/Navbar";
+import { backend_url } from "../context/ShopContext";
 const GrayStructure = () => {
   const [products, setProducts] = useState([]);
 

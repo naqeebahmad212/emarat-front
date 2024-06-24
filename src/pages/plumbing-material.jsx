@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 import plimberImg from "../assets/plumb.png";
 import { useEffect, useState } from "react";
 import Item from "../components/Item";
-import { backend_url } from "../../../admin/src/components/Navbar";
+import { backend_url } from "../context/ShopContext";
 const PlumbingMaterial = () => {
   const [products, setProducts] = useState([]);
 

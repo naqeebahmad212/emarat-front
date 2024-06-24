@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { backend_url } from "../../../admin/src/components/Navbar";
+import { backend_url } from "../context/ShopContext";
 
 const Login = () => {
   const [state, setState] = useState("Login");

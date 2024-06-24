@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { backend_url } from "../../../admin/src/components/Navbar";
+import { backend_url } from "../context/ShopContext";
 
 const ProjectCard = ({ work, isDetailsPage, isMyproject, fetchInfo }) => {
   const [loading, setLoading] = useState(false);

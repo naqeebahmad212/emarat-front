@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Item from "./Item";
-import { backend_url } from "../../../admin/src/components/Navbar";
+import { backend_url } from "../context/ShopContext";
 
 const NewArrivals = () => {
   const [new_collection, setNew_collection] = useState([]);

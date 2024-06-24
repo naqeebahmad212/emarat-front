@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import ProjectCard from "../components/ProjectCard";
-import { backend_url } from "../../../admin/src/components/Navbar";
+import { backend_url } from "../context/ShopContext";
 
 const MyProjects = () => {
   const [works, setWorks] = useState([]);

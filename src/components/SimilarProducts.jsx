@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Item from "./Item";
-import { backend_url } from "../../../admin/src/components/Navbar";
+import { backend_url } from "../context/ShopContext";
 
 const SimilarProducts = ({ category, productId }) => {
   const [products, setProducts] = useState([]);

@@ -8,7 +8,7 @@ import Islamabad from "../images/Islamabad.jpg";
 import Faislabad from "../images/Faisalabad.jpeg";
 import Rawalpindi from "../images/Rawalpindi.jpeg";
 import { Link } from "react-router-dom";
-import { backend_url } from "../../../admin/src/components/Navbar";
+import { backend_url } from "../context/ShopContext";
 const cities = [
   { name: "Lahore", image: Lahore },
   { name: "Karachi", image: Karachi },
