@@ -16,7 +16,7 @@ const Login = () => {
   const login = async () => {
     console.log("Login function executed", formData);
     let responseData;
-    await fetch(backend_url + ":4000/login", {
+    await fetch(backend_url + "/login", {
       method: "POST",
       headers: {
         Accept: "application/formData",
@@ -38,7 +38,7 @@ const Login = () => {
   const signup = async () => {
     console.log("Sigup function executed", formData);
     let responseData;
-    await fetch(backend_url + ":4000/signup", {
+    await fetch(backend_url + "/signup", {
       method: "POST",
       headers: {
         Accept: "application/formData",

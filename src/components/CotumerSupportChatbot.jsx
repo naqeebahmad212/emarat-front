@@ -70,11 +70,12 @@ function Chat() {
         ...apiMessages, // The messages from our chat with ChatGPT
       ],
     };
-
+    const key = import.meta.env.VITE_OPEN_AI_KEY;
+    console.log(key, "i am key");
     await fetch("https://api.openai.com/v1/chat/completions", {
       method: "POST",
       headers: {
-        Authorization: "Bearer " + import.meta.env.OPEN_AI_KEY,
+        Authorization: "Bearer " + key,
         "Content-Type": "application/json",
       },
       body: JSON.stringify(apiRequestBody),
