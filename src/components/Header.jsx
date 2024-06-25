@@ -2,9 +2,9 @@ import { useContext, useEffect, useState } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
 // import Navbar from "./Navbar";
 // import images / icons / svgs
-import logo from "../assets/logo.png";
-import user from "../assets/user.svg";
-import logout from "../assets/logout.svg";
+import logo from "/assets/logo.png";
+import user from "/assets/user.svg";
+import logout from "/assets/logout.svg";
 import { MdClose, MdMenu } from "react-icons/md";
 import { RiShoppingCart2Line } from "react-icons/ri";
 import { ShopContext } from "../context/ShopContext";

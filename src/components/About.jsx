@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { TbTruckReturn } from "react-icons/tb";
-import about from "../assets/pasted image 0.png";
+import about from "/assets/pasted image 0.png";
 import { motion } from "framer-motion";
 
 const About = () => {

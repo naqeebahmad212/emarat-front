@@ -1,4 +1,4 @@
-import Demo from "../videos/demo.mp4";
+import Demo from "/videos/demo.mp4";
 
 const BackgroundVideoSection = () => {
   return (

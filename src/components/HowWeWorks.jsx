@@ -1,4 +1,4 @@
-import howWeWrok from "../assets/weworks.png";
+import howWeWrok from "/assets/weworks.png";
 const HowWeWorks = () => {
   return (
     <section className="max-padd-container bg-[#0E1F3D] p-12 max-lg:hidden ">

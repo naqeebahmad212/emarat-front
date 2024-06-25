@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 // import axios from "axios";
-import BuildingVideo2 from "../videos/video2.mp4";
+import BuildingVideo2 from "/videos/video2.mp4";
 import Lahore from "../images/Lahore Fort.jpeg";
 import Karachi from "../images/Mazar-e-Quaid.jpeg";
 import Multan from "../images/multan.jpeg";

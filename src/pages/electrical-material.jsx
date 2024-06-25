@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import electricImg from "../assets/elect.png";
+import electricImg from "/assets/elect.png";
 import { useEffect, useState } from "react";
 import Item from "../components/Item";
 import { backend_url } from "../context/ShopContext";

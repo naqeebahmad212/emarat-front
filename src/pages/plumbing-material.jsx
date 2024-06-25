@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import plimberImg from "../assets/plumb.png";
+import plimberImg from "/assets/plumb.png";
 import { useEffect, useState } from "react";
 import Item from "../components/Item";
 import { backend_url } from "../context/ShopContext";
